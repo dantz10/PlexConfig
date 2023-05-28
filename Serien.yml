@@ -1,0 +1,37 @@
+external_templates:
+  file: config/templates.yml
+
+metadata:
+  "The Spectacular Spider-Man":
+    sort_title: "Marvel Anime: The Spectacular Spider-Man"
+
+  "Marvel Anime: Wolverine":
+    alt_title: "Wolverine"
+    sort_title: "Marvel Anime: Wolverine"
+
+  "Marvel Anime: X-Men":
+    alt_title: "Marvel Anime - X-Men"
+    sort_title: "Marvel Anime: X-Men"
+
+  "Severance":
+    year: 2022
+
+  "Star Trek: Lower Decks":
+    alt_title: "Star Trek Lower Decks"
+    sort_title: "Star Trek: Lower Decks"
+
+  "Star Wars: Andor":
+    alt_title: "Andor"
+    sort_title: "Star Wars: Andor"
+
+  "Star Wars: Geschichten der Jedi":
+    alt_title: "Star Wars Geschichten der Jedi"
+    sort_title: "Star Wars: Geschichten der Jedi"
+
+  "Star Wars: The Mandalorian":
+    alt_title: "The Mandalorian"
+    sort_title: "Star Wars: Mandalorian"
+
+  "Star Wars: Obi-Wan Kenobi":
+    alt_title: "Obi-Wan Kenobi"
+    sort_title: "Star Wars: Obi-Wan"

@@ -1,0 +1,26 @@
+external_templates:
+  file: config/templates.yml
+        
+collections:
+
+  "Marvel Cinematic Universe":
+    template: { name: collection }
+    movie:
+    - 38247
+
+  "Mittelerde Collection":
+    template: { name: Collection }
+    imdb_list: https://www.imdb.com/list/ls563998287/
+    collection_order: custom
+    summary: "Geschichten aus Mittelerde in chronologischer Reihenfolge"
+
+  "Star Trek Collection":
+    template: {name: Collection} 
+    summary: "Alle Serien im Star Trek Universum."
+    imdb_list: https://www.imdb.com/list/ls538616235/
+
+  "Star Wars Collection":
+    template: {name: Collection} # , file: /config/assets/collections/Star Wars- The Complete Collection.png}
+    imdb_list: https://www.imdb.com/list/ls538616339/
+    collection_order: custom
+    summary: "Alle Filme und Serien im Star Wars Universum."

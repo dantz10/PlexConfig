@@ -1,0 +1,804 @@
+metadata:
+######## James Bond 007 ########
+  "James Bond 007 jagt Dr. No":
+#    file_poster: /config/assets/movies/JamesBond/Dr. No (1962).png
+  James Bond 007 - Liebesgrüße aus Moskau:
+#    file_poster: /config/assets/movies/JamesBond/From Russia with Love (1963).png
+  James Bond 007 - Feuerball:
+#    file_poster: /config/assets/movies/JamesBond/Thunderball (1965).png
+  James Bond 007 - Man lebt nur zweimal:
+#    file_poster: /config/assets/movies/JamesBond/You Only Live Twice (1967).png
+  James Bond 007 - Moonraker - Streng geheim:
+#    file_poster: /config/assets/movies/JamesBond/Moonraker (1979).png
+  James Bond 007 - In tödlicher Mission:
+#    file_poster: /config/assets/movies/JamesBond/For Your Eyes Only (1981).png
+  "James Bond 007 - Sag niemals nie":
+    alt_title: Sag niemals nie
+#    file_poster: /config/assets/movies/JamesBond/Never Say Never Again (1983).png
+  James Bond 007 - Im Angesicht des Todes:
+#    file_poster: /config/assets/movies/JamesBond/A View to a Kill (1985).png
+  James Bond 007 - Der Hauch des Todes:
+#    file_poster: /config/assets/movies/JamesBond/The Living Daylights (1987).png
+  James Bond 007 - Lizenz zum Töten:
+#    file_poster: /config/assets/movies/JamesBond/Licence to Kill (1989).png
+  James Bond 007 - GoldenEye:
+#    file_poster: /config/assets/movies/JamesBond/GoldenEye (1995).png
+  James Bond 007 - Der Morgen stirbt nie:
+#    file_poster: /config/assets/movies/JamesBond/Tomorrow Never Dies (1997).png
+  James Bond 007 - Ein Quantum Trost:
+#    file_poster: /config/assets/movies/JamesBond/Quantum of Solace (2008).png
+  James Bond 007 - Skyfall:
+#    file_poster: /config/assets/movies/JamesBond/Skyfall (2012).png
+  James Bond 007 - Spectre:
+#    file_poster: /config/assets/movies/JamesBond/Spectre (2015).png
+  James Bond 007 - Keine Zeit zu sterben:
+#    file_poster: /config/assets/movies/JamesBond/No Time to Die (2021).png
+######## Harry Potter ########
+  Harry Potter und der Stein der Weisen:
+#    file_poster: /config/assets/movies/HarryPotter/Harry Potter and the Philosopher's Stone (2001).png
+  Harry Potter und der Gefangene von Askaban:
+#    file_poster: /config/assets/movies/HarryPotter/Harry Potter and the Prisoner of Azkaban (2004).png
+  Harry Potter und der Feuerkelch:
+#    file_poster: /config/assets/movies/HarryPotter/Harry Potter and the Goblet of Fire (2005).png
+  Harry Potter und der Halbblutprinz:
+#    file_poster: /config/assets/movies/HarryPotter/Harry Potter and the Half-Blood Prince (2009).png
+  Harry Potter und der Orden des Phönix:
+#    file_poster: /config/assets/movies/HarryPotter/Harry Potter and the Order of the Phoenix (2007).png
+  Harry Potter und die Heiligtümer des Todes - Teil 1:
+#    file_poster: /config/assets/movies/HarryPotter/Harry Potter and the Deathly Hallows- Part 1 (2010).png
+  Harry Potter und die Heiligtümer des Todes - Teil 2:
+#    file_poster: /config/assets/movies/HarryPotter/Harry Potter and the Deathly Hallows- Part 2 (2011).png
+  Harry Potter und die Kammer des Schreckens:
+#    file_poster: /config/assets/movies/HarryPotter/Harry Potter and the Chamber of Secrets (2002).png
+######## Phantastische Tierwesen ########
+  Phantastische Tierwesen und wo sie zu finden sind:
+#    file_poster: /config/assets/movies/HarryPotter/Fantastic Beasts and Where to Find Them (2016).png
+  "Phantastische Tierwesen: Grindelwalds Verbrechen":
+#    file_poster: /config/assets/movies/Fantastic Beasts- The Crimes of Grindelwald (2018).png
+
+######## Disney ########
+  Dumbo, der fliegende Elefant:
+#    file_poster: /config/assets/movies/Disney/Dumbo (1941).png
+  Disneys Eine Weihnachtsgeschichte:
+#    file_poster: /config/assets/movies/Disney/A Christmas Carol (2009).png
+  Falsches Spiel mit Roger Rabbit:
+#    file_poster: /config/assets/movies/Disney/Who Framed Roger Rabbit (1988).jpg
+  Bambi:
+#    file_poster: /config/assets/movies/Disney/Bambi (1942).png
+  Raya und der letzte Drache:
+#    file_poster: /config/assets/movies/Disney/Raya and the Last Dragon (2021).png
+  Die Eiskönigin 2:
+#    file_poster: /config/assets/movies/Disney/Frozen II (2019).png
+  Vaiana:
+#    file_poster: /config/assets/movies/Disney/Moana (2016).png
+  Zoomania:
+#    file_poster: /config/assets/movies/Disney/Zootopia (2016).png
+  Baymax - Riesiges Robowabohu:
+#    file_poster: /config/assets/movies/Disney/Big Hero 6 (2014).png
+  Die Eiskönigin - Völlig unverfroren:
+#    file_poster: /config/assets/movies/Disney/Frozen (2013).png
+  Rapunzel - Neu verföhnt:
+#    file_poster: /config/assets/movies/Disney/Tangled (2010).png
+  Küss den Frosch:
+#    file_poster: /config/assets/movies/Disney/The Princess and the Frog (2009).png
+  Das Dschungelbuch 2:
+#    file_poster: /config/assets/movies/Disney/The Jungle Book 2 (2003).png
+  Der Schatzplanet:
+#    file_poster: /config/assets/movies/Disney/Treasure Planet (2002).png
+  Mulan:
+#    file_poster: /config/assets/movies/Disney/Mulan (1998).png
+  Die Schöne und das Biest:
+#    file_poster: /config/assets/movies/Disney/Beauty and the Beast (1991).png
+  Aladdin:
+    year: 1992
+#    file_poster: /config/assets/movies/Disney/Aladdin (1992).png
+  Atlantis - Das Geheimnis der verlorenen Stadt:
+#    file_poster: /config/assets/movies/Disney/Atlantis- The Lost Empire (2001).png
+  Ein Königreich für ein Lama:
+#    file_poster: /config/assets/movies/Disney/The Emperor's New Groove (2000).png
+  Tarzan:
+#    file_poster: /config/assets/movies/Disney/Tarzan (1999).png
+  Hercules:
+#    file_poster: /config/assets/movies/Disney/Hercules (1997).png
+  Der Glöckner von Notre Dame:
+#    file_poster: /config/assets/movies/Disney/The Hunchback of Notre Dame (1996).png
+  Bernard & Bianca im Känguruland:
+#    file_poster: /config/assets/movies/Disney/The Rescuers Down Under (1990).png
+  Pocahontas:
+#    file_poster: /config/assets/movies/Disney/Pocahontas (1995).png
+  "Oliver & Co.":
+#    file_poster: /config/assets/movies/Disney/Oliver & Company (1988).png
+  "Basil, der große Mäusedetektiv":
+#    file_poster: /config/assets/movies/Disney/The Great Mouse Detective (1986).png
+  Taran und der Zauberkessel:
+#    file_poster: /config/assets/movies/Disney/The Black Cauldron (1985).png
+  Cap und Capper:
+#    file_poster: /config/assets/movies/Disney/The Fox and the Hound (1981).png
+  "Bernard & Bianca - Die Mäusepolizei":
+#    file_poster: /config/assets/movies/Disney/The Rescuers (1977).png
+  Robin Hood:
+    year: 1973
+#    file_poster: /config/assets/movies/Disney/Robin Hood (1973).png
+  Aristocats:
+#    file_poster: /config/assets/movies/Disney/The Aristocats (1970).png
+  Die Hexe und der Zauberer:
+#    file_poster: /config/assets/movies/Disney/The Sword in the Stone (1963).png
+  101 Dalmatiner:
+#    file_poster: /config/assets/movies/Disney/One Hundred and One Dalmatians (1961).png
+  Susi und Strolch:
+#    file_poster: /config/assets/movies/Disney/Lady and the Tramp (1955).png
+  Peter Pan:
+#    file_poster: /config/assets/movies/Disney/Peter Pan (1953).png
+  Alice im Wunderland:
+#    file_poster: /config/assets/movies/Disney/Alice in Wonderland (1951).png
+  Cinderella:
+#    file_poster: /config/assets/movies/Disney/Cinderella (1950).png
+  Pinocchio:
+#    file_poster: /config/assets/movies/Disney/Pinocchio (1940).png
+    year: 1940
+  Schneewittchen und die sieben Zwerge:
+#    file_poster: /config/assets/movies/Disney/Snow White and the Seven Dwarfs (1937).png
+    year: 1937
+
+######## John Wick ########
+  John Wick:
+#    
+#    file_poster: /config/assets/movies/johnwick/John Wick (2014).png
+  "John Wick: Kapitel 2":
+#    
+#    file_poster: /config/assets/movies/johnwick/John Wick- Chapter 2 (2017).png
+  "John Wick: Kapitel 3":
+#    
+#    file_poster: /config/assets/movies/johnwick/John Wick- Chapter 3 - Parabellum (2019).png
+######## The Matrix ########
+  Matrix:
+#    file_poster: /config/assets/movies/Matrix/The Matrix (1999).png
+  Matrix Reloaded:
+#    file_poster: /config/assets/movies/Matrix/The Matrix Reloaded (2003).png
+  Matrix Revolutions:
+#    file_poster: /config/assets/movies/Matrix/The Matrix Revolutions (2003).png
+  Matrix Resurrections:
+#    file_poster: /config/assets/movies/Matrix/The Matrix Resurrections (2021).png
+######## Star Trek ########
+  "Star Trek - Der Film":
+#    file_poster: /config/assets/movies/startrek/Star Trek- The Motion Picture (1979).png
+    year: 1979
+  "Star Trek II - Der Zorn des Khan":
+#    file_poster: /config/assets/movies/startrek/Star Trek II- The Wrath of Khan (1982).png
+    year: 1982
+  "Star Trek III - Auf der Suche nach Mr. Spock":
+#    file_poster: /config/assets/movies/startrek/Star Trek III- The Search for Spock (1984).png
+    year: 1984
+  "Star Trek IV - Zurück in die Gegenwart":
+#    file_poster: /config/assets/movies/startrek/Star Trek IV- The Voyage Home (1986).png
+    year: 1986
+  "Star Trek V - Am Rande des Universums":
+#    file_poster: /config/assets/movies/startrek/Star Trek V- The Final Frontier (1989).png
+    year: 1989
+  "Star Trek VI - Das unentdeckte Land":
+#    file_poster: /config/assets/movies/startrek/Star Trek VI- The Undiscovered Country (1991).png
+    year: 1991
+  "Star Trek - Treffen der Generationen":
+#    file_poster: /config/assets/movies/startrek/Star Trek- Generations (1994).png
+    year: 1994
+  "Star Trek - Der erste Kontakt":
+#    file_poster: /config/assets/movies/startrek/Star Trek- First Contact (1996).png
+    year: 1996
+  "Star Trek - Der Aufstand":
+#    file_poster: /config/assets/movies/startrek/Star Trek- Insurrection (1998).png
+    year: 1998
+  "Star Trek: Nemesis":
+#    file_poster: /config/assets/movies/startrek/Star Trek- Nemesis (2002).png
+    year: 2002
+  "Star Trek":
+#    file_poster: /config/assets/movies/startrek/Star Trek (2009).png
+    year: 2009
+  "Star Trek Into Darkness":
+#    file_poster: /config/assets/movies/startrek/Star Trek Into Darkness (2013).png
+    year: 2013
+    
+### 96 Hours ###
+  "96 Hours":
+#    file_poster: /config/assets/movies/96hours/Taken (2008).png
+    year: 2008
+
+
+    
+######## Kingsman #########
+  "The King’s Man - The Beginning":
+#    file_poster: /config/assets/movies/kingsman/The King's Man (2021).png
+  "Kingsman: The Secret Service":
+#    file_poster: /config/assets/movies/kingsman/Kingsman- The Secret Service (2014).jpg
+######## Bourne #########
+  "Die Bourne Identität":
+#    file_poster: /config/assets/movies/bourne/The Bourne Identity (2002).png
+  "Die Bourne Verschwörung":
+#    file_poster: /config/assets/movies/bourne/The Bourne Supremacy (2004).png
+  "Das Bourne Vermächtnis":
+#    file_poster: /config/assets/movies/bourne/The Bourne Legacy (2012).png
+######## Sherlock Holmes #########
+  Sherlock Holmes:
+#    file_poster: /config/assets/movies/holmes/Sherlock Holmes (2009).jpg
+  Sherlock Holmes - Spiel im Schatten:
+#    file_poster: /config/assets/movies/holmes/Sherlock Holmes- A Game of Shadows (2011).jpg
+######## Mission: Impossible #########
+  "Mission: Impossible":
+#    file_poster: /config/assets/movies/mimpossible/Mission- Impossible (1996).png
+  "Mission: Impossible II":
+#    file_poster: /config/assets/movies/mimpossible/Mission- Impossible II (2000).png
+  "Mission: Impossible III":
+#    file_poster: /config/assets/movies/mimpossible/Mission- Impossible III (2006).png
+  "Mission: Impossible - Phantom Protokoll":
+#    file_poster: /config/assets/movies/mimpossible/Mission- Impossible - Ghost Protocol (2011).png
+  "Mission: Impossible - Rogue Nation":
+#    file_poster: /config/assets/movies/mimpossible/Mission- Impossible - Rogue Nation (2015).png
+######## Robocop #########
+  RoboCop:
+    year: 2014
+#    file_poster: /config/assets/movies/robocop/RoboCop (2014).jpg
+  RoboCop 2:
+#    file_poster: /config/assets/movies/robocop/RoboCop 2 (1990).jpg
+######## Pacific Rim #########
+  Pacific Rim:
+#    file_poster: /config/assets/movies/Pacific Rim/poster.png
+######## Jurassic Park #########
+  Jurassic Park:
+#    file_poster: /config/assets/movies/jurassic/Jurassic Park (1993).png
+  "Vergessene Welt: Jurassic Park":
+#    file_poster: /config/assets/movies/jurassic/The Lost World- Jurassic Park (1997).png
+  Jurassic Park III:
+#    file_poster: /config/assets/movies/jurassic/Jurassic Park III (2001).png
+######## Fast & Furious #########
+  The Fast and the Furious:
+    title: "The Fast and the Furious"
+    year: 2001
+#    file_poster: /config/assets/movies/fastfurious/The Fast and the Furious (2001).jpg
+  2 Fast 2 Furious:
+#    file_poster: /config/assets/movies/fastfurious/2 Fast 2 Furious (2003).jpg
+  "The Fast and the Furious: Tokyo Drift":
+#    file_poster: /config/assets/movies/fastfurious/The Fast and the Furious- Tokyo Drift (2006).jpg
+  "Fast & Furious - Neues Modell. Originalteile.":
+#    file_poster: /config/assets/movies/fastfurious/Fast & Furious (2009).jpg
+  Fast & Furious Five:
+#    file_poster: /config/assets/movies/fastfurious/Fast Five (2011).jpg
+  Fast & Furious 6:
+#    file_poster: /config/assets/movies/fastfurious/Fast & Furious 6 (2013).jpg
+  Fast & Furious 8:
+#    file_poster: /config/assets/movies/fastfurious/The Fate of the Furious (2017).jpg
+  "Fast & Furious: Hobbs & Shaw":
+#    file_poster: /config/assets/movies/fastfurious/Fast & Furious Presents- Hobbs & Shaw (2019).jpg
+####### Alien & Predator ########
+  "Alien":
+    title: "Alien - Das unheimliche Wesen aus einer fremden Welt"
+#    file_poster: /config/assets/movies/aliens/Alien (1979).jpg
+    year: 1979
+  "Aliens - Die Rückkehr":
+#    file_poster: /config/assets/movies/aliens/Aliens (1986).jpg
+    year: 1986
+  "Alien 3":
+#    file_poster: /config/assets/movies/aliens/Alien3 (1992).jpg
+    year: 1992
+  "Alien - Die Wiedergeburt":
+#    file_poster: /config/assets/movies/aliens/Alien Resurrection (1997).jpg
+    year: 1997
+  "Alien vs. Predator":
+#    file_poster: /config/assets/movies/aliens/AVP- Alien vs. Predator (2004).jpg
+    year: 2004
+  "Prometheus - Dunkle Zeichen":
+#    file_poster: /config/assets/movies/aliens/Prometheus (2012).jpg
+    year: 2012
+  "Predators":
+#    file_poster: /config/assets/movies/aliens/Predators (2010).jpg
+    year: 2010
+  "Predator 2":
+#    file_poster: /config/assets/movies/aliens/Predator 2 (1990).jpg
+    year: 1990
+  "Predator":
+#    file_poster: /config/assets/movies/aliens/Predator (1987).jpg
+    year: 1987
+
+####### Rocky & Creed ########
+  "Rocky":
+##    file_poster: /config/assets/movies/Rocky/Rocky (1976).jpg
+    year: 1976
+  "Rocky II":
+#    file_poster: /config/assets/movies/Rocky/Rocky II (1979).jpg
+    year: 1979
+  "Rocky III - Das Auge des Tigers":
+#    file_poster: /config/assets/movies/Rocky/Rocky III (1982).jpg
+    year: 1982
+  "Rocky V":
+#    file_poster: /config/assets/movies/Rocky/Rocky V (1990).jpg
+    year: 1990    
+  "Creed II: Rocky's Legacy":
+    title: "Creed II"
+#    file_poster: /config/assets/movies/Rocky/Creed II (2018).jpg
+    year: 2018    
+    
+####### Marvel Cinematic universe ########
+  "Iron Man":
+#    file_poster: /config/assets/movies/marvel/Iron Man (2008).png
+    year: 2008
+    #alt_title: Iron Man
+  "Der unglaubliche Hulk":
+#    file_poster: /config/assets/movies/marvel/The Incredible Hulk (2008).png
+    year: 2008
+    #alt_title: Iron Man
+  "Iron Man 2":
+#    file_poster: /config/assets/movies/marvel/Iron Man 2 (2010).png
+    year: 2010
+    #alt_title: Iron Man
+  "Thor":
+#    file_poster: /config/assets/movies/marvel/Thor (2011).png
+    year: 2011
+    #alt_title: Iron Man
+  "Captain America: The First Avenger":
+#    file_poster: /config/assets/movies/marvel/Captain America- The First Avenger (2011).png
+    year: 2011
+    #alt_title: Iron Man
+  "Marvel's The Avengers":
+#    file_poster: /config/assets/movies/marvel/The Avengers (2012).png
+    year: 2012
+    #alt_title: Iron Man
+  "Iron Man 3":
+#    file_poster: /config/assets/movies/marvel/Iron Man 3 (2013).png
+    year: 2013
+    #alt_title: Iron Man
+  "Thor - The Dark Kingdom":
+#    file_poster: /config/assets/movies/marvel/Thor- The Dark World (2013).png
+    year: 2013
+    #alt_title: Iron Man
+  "The Return of the First Avenger":
+#    file_poster: /config/assets/movies/marvel/Captain America- The Winter Soldier (2014).png
+    year: 2014
+    #alt_title: Iron Man
+  "Guardians of the Galaxy":
+#    file_poster: /config/assets/movies/marvel/Guardians of the Galaxy (2014).png
+    year: 2014
+    #alt_title: Iron Man
+  "Avengers: Age of Ultron":
+#    file_poster: /config/assets/movies/marvel/Avengers- Age of Ultron (2015).png
+    year: 2015
+    #alt_title: Iron Man
+  "Ant-Man":
+#    file_poster: /config/assets/movies/marvel/Ant-Man (2015).png
+    year: 2015
+    #alt_title: Iron Man
+  "The First Avenger: Civil War":
+#    file_poster: /config/assets/movies/marvel/Captain America- Civil War (2016).png
+    year: 2016
+    #alt_title: Iron Man
+  "Doctor Strange":
+#    file_poster: /config/assets/movies/marvel/Doctor Strange (2016).png
+    year: 2016
+    #alt_title: Iron Man
+  "Guardians of the Galaxy Vol. 2":
+#    file_poster: /config/assets/movies/marvel/Guardians of the Galaxy Vol. 2 (2017).png
+    year: 2017
+    #alt_title: Iron Man
+  "Thor: Tag der Entscheidung":
+#    file_poster: /config/assets/movies/marvel/Thor- Ragnarok (2017).png
+    year: 2017
+    #alt_title: Iron Man
+  "Black Panther":
+#    file_poster: /config/assets/movies/marvel/Black Panther (2018).png
+    year: 2018
+    #alt_title: Iron Man
+  "Avengers: Infinity War":
+#    file_poster: /config/assets/movies/marvel/Avengers- Infinity War (2018).png
+    year: 2018
+    #alt_title: Iron Man
+  "Captain Marvel":
+#    file_poster: /config/assets/movies/marvel/Captain Marvel (2019).png
+    year: 2019
+    #alt_title: Iron Man
+  "Avengers: Endgame":
+#    file_poster: /config/assets/movies/marvel/Avengers- Endgame (2019).png
+    year: 2019
+    #alt_title: Iron Man
+  "Spider-Man: Far from Home":
+#    file_poster: /config/assets/movies/marvel/Spider-Man- Far From Home (2019).png
+    year: 2019
+    #alt_title: Iron Man
+  "Black Widow":
+#    file_poster: /config/assets/movies/marvel/Black Widow (2021).png
+    year: 2021
+    #alt_title: Iron Man
+  "Shang-Chi and the Legend of the Ten Rings":
+#    file_poster: /config/assets/movies/marvel/Shang-Chi and the Legend of the Ten Rings (2021).png
+    year: 2021
+    #alt_title: Iron Man
+  "Spider-Man: No Way Home":
+#    file_poster: /config/assets/movies/marvel/Spider-Man- No Way Home (2021).png
+    year: 2021
+    #alt_title: Iron Man
+  "Eternals":
+#    file_poster: /config/assets/movies/marvel/Eternals (2021).png
+    year: 2021
+  "Morbius":
+#    file_poster: /config/assets/movies/marvel/Morbius (2022).png
+    year: 2022
+
+### LEGO Movies ###
+  "The Lego Movie":
+    #file_poster: /config/assets/movies/marvel/Spider-Man- No Way Home (2021).jpg
+    year: 2014
+    #alt_title: Iron Man
+
+### Tomb Raider ###
+  "Lara Croft: Tomb Raider":
+#    file_poster: /config/assets/movies/tombraider/Lara Croft- Tomb Raider (2001).png
+    year: 2001
+  "Lara Croft: Tomb Raider - Die Wiege des Lebens":
+#    file_poster: /config/assets/movies/tombraider/Lara Croft- Tomb Raider - The Cradle of Life (2003).png
+    year: 2003
+  "Tomb Raider":
+#    file_poster: /config/assets/movies/tombraider/Tomb Raider (2018).png
+    year: 2018
+    
+   ### Total Recall ###
+  "Total Recall - Die totale Erinnerung":
+#    file_poster: /config/assets/movies/Total Recall (1990).png
+    year: 1990
+  "Total Recall":
+#    file_poster: /config/assets/movies/Total Recall (2012).png
+    year: 2012
+    
+### Stirb Langsam ###
+  "Stirb langsam - Ein guter Tag zum Sterben":
+#    file_poster: /config/assets/movies/stirblangsam/A Good Day to Die Hard (2013).png
+    year: 2013
+  "Stirb langsam 4.0":
+#    file_poster: /config/assets/movies/stirblangsam/Live Free or Die Hard (2007).png
+    year: 2007
+  "Stirb langsam - Jetzt erst recht":
+#    file_poster: /config/assets/movies/stirblangsam/Die Hard- With a Vengeance (1995).png
+    year: 1995
+  "Stirb langsam 2":
+#    file_poster: /config/assets/movies/stirblangsam/Die Hard 2 (1990).png
+    year: 1990
+
+
+### Batman Movies ###
+  "Batman":
+#    file_poster: /config/assets/movies/Batman/poster.jpg
+    year: 1989
+    #alt_title: Iron Man
+  "Batmans Rückkehr":
+    #file_poster: /config/assets/movies/marvel/Spider-Man- No Way Home (2021).jpg
+    year: 1992
+    #alt_title: Iron Man
+  "Batman Forever":
+    #file_poster: /config/assets/movies/marvel/Spider-Man- No Way Home (2021).jpg
+    year: 1995
+    #alt_title: Iron Man
+  "Batman & Robin":
+    #file_poster: /config/assets/movies/marvel/Spider-Man- No Way Home (2021).jpg
+    year: 1997
+    #alt_title: Iron Man
+  "Batman Begins":
+    #file_poster: /config/assets/movies/marvel/Spider-Man- No Way Home (2021).jpg
+    year: 2005
+    #alt_title: Iron Man
+  "The Dark Knight":
+    #file_poster: /config/assets/movies/marvel/Spider-Man- No Way Home (2021).jpg
+    year: 2008
+    #alt_title: Iron Man
+  "The Dark Knight Rises":
+    #file_poster: /config/assets/movies/marvel/Spider-Man- No Way Home (2021).jpg
+    year: 2012
+    #alt_title: Iron Man
+  "Batman Unlimited: Animal Instincts":
+    #file_poster: /config/assets/movies/marvel/Spider-Man- No Way Home (2021).jpg
+    year: 2015
+    alt_title: "Batman Unlimited"
+    #alt_title: Iron Man
+  "The Batman":
+    #file_poster: /config/assets/movies/marvel/Spider-Man- No Way Home (2021).jpg
+    year: 2022
+    #alt_title: Iron Man
+    
+### Ghostbusters ###    
+  "Ghostbusters: Legacy":
+#    file_poster: /config/assets/movies/Ghostbusters/Ghostbusters Legacy(2021).png
+    year: 2021
+  "Ghostbusters - Die Geisterjäger":
+#    file_poster: /config/assets/movies/Ghostbusters/Ghostbusters (1984).png
+    year: 1984
+  "Ghostbusters 2":
+#    file_poster: /config/assets/movies/Ghostbusters/Ghostbusters II (1989).png
+    year: 1989
+
+### Dune ###
+  "Dune":
+#    file_poster: /config/assets/movies/Dune (2021).png
+    year: 2021
+  "Der Wüstenplanet":
+#    file_poster: /config/assets/movies/Dune (1984).png
+    year: 1984
+
+### Fluch der Karibik Collection ###
+  "Fluch der Karibik":
+#    file_poster: /config/assets/movies/fluch der karibik/Pirates of the Caribbean- The Curse of the Black Pearl (2003).png
+    year: 2003
+
+### Monty Python ###
+  "Monty Pythons wunderbare Welt der Schwerkraft":
+#    file_poster: /config/assets/movies/montypython/Die wunderbare Welt der Schwerkraft (1971).png
+    year: 1971
+  "Monty Pythons - Das Leben des Brian":
+#    file_poster: /config/assets/movies/montypython/Das Leben des Brian (1979).png
+    year: 1979
+  "Monty Python: Die Ritter der Kokosnuss":
+#    file_poster: /config/assets/movies/montypython/Ritter der Kokosnuss (1975).png
+    year: 1975
+  "Monty Pythons - Der Sinn des Lebens":
+#    file_poster: /config/assets/movies/montypython/Der Sinn des Lebens (1983).png
+    year: 1983
+
+### In einem Land vor unserer Zeit ###
+  "In einem Land vor unserer Zeit":
+#    file_poster: /config/assets/movies/The Land Before Time (1988).png
+    year: 1988
+    
+### Santa Clause ###
+  "Santa Clause - Eine schöne Bescherung":
+#    file_poster: /config/assets/movies/santaclause/The Santa Clause (1994).png
+    year: 1994
+    
+  "Santa Clause 2 - Eine noch schönere Bescherung":
+#    file_poster: /config/assets/movies/santaclause/The Santa Clause 2 (2002).png
+    year: 2002
+    
+  "Santa Clause 3 - Eine frostige Bescherung":
+#    file_poster: /config/assets/movies/santaclause/The Santa Clause 3- The Escape Clause (2006).png
+    year: 2006
+    
+
+### Tron ###
+  "Tron":
+#    file_poster: /config/assets/movies/Tron (1982).png
+    year: 1982
+  "Tron: Legacy":
+#    file_poster: /config/assets/movies/TRON- Legacy (2010).png
+    year: 2010
+    
+### Universal Soldier ###
+  "Universal Soldier":
+#    file_poster: /config/assets/movies/universalsoldier/Universal Soldier (1992).png
+    year: 1992
+  "Universal Soldier - Die Rückkehr":
+#    file_poster: /config/assets/movies/universalsoldier/Universal Soldier- The Return (1999).png
+    year: 1999
+
+### Wayne's World ###
+  "Wayne's World":
+#    file_poster: /config/assets/movies/Wayne's World (1992).png
+    year: 1992
+  "Wayne's World 2":
+#    file_poster: /config/assets/movies/Wayne's World 2 (1993).png
+    year: 1993
+    
+### ES ###
+  "Es":
+#    file_poster: /config/assets/movies/It (2017).png
+    year: 2017
+  "Es - Kapitel 2":
+#    file_poster: /config/assets/movies/It Chapter Two (2019).png
+    year: 2019
+
+### Jeepers Creepers ###
+  "Jeepers Creepers - Es ist angerichtet":
+#    file_poster: /config/assets/movies/Jeepers Creepers (2001).png
+    year: 2001
+  "Jeepers Creepers 2":
+#    file_poster: /config/assets/movies/Jeepers Creepers 2 (2003).png
+    year: 2003
+
+### Rambo ###
+  "Rambo":
+#    file_poster: /config/assets/movies/rambo/First Blood (1982).png
+    year: 1982
+  "Rambo II - Der Auftrag":
+#    file_poster: /config/assets/movies/rambo/Rambo- First Blood Part II (1985).png
+    year: 1985
+  "Rambo III":
+#    file_poster: /config/assets/movies/rambo/Rambo III (1988).png
+    year: 1988
+  "John Rambo":
+#    file_poster: /config/assets/movies/rambo/Rambo (2008).png
+    year: 2008
+
+
+### Starship Troopers ###
+  "Starship Troopers":
+#    file_poster: /config/assets/movies/starshiptroopers/Starship Troopers (1997).png
+    year: 1997
+  "Starship Troopers 2: Held der Föderation":
+#    file_poster: /config/assets/movies/starshiptroopers/Starship Troopers 2- Hero of the Federation (2004).png
+    year: 2004
+  "Starship Troopers 3: Marauder":
+#    file_poster: /config/assets/movies/starshiptroopers/Starship Troopers 3- Marauder (2008).png
+    year: 2008
+  "Starship Troopers: Invasion":
+#    file_poster: /config/assets/movies/starshiptroopers/Starship Troopers- Invasion (2012).png
+    year: 2012
+
+### Space Jam ###
+  #"Space Jam":
+  #  file_poster: /config/assets/movies/Space Jam (1996).png
+
+### Bloodrayne ###
+  "BloodRayne: The Third Reich":
+#    file_poster: /config/assets/movies/BloodRayne- The Third Reich (2010).png
+    year: 2010
+
+
+
+### Pixar Movies ###
+  "Cars":
+#    file_poster: /config/assets/movies/Cars (2006).png
+    year: 2006
+  "Rot":
+#    file_poster: /config/assets/movies/Turning Red (2022).png
+    year: 2022
+    
+### Sister Act Movies ###
+  "Sister Act - Eine himmlische Karriere":
+#    file_poster: /config/assets/movies/Sister Act (1992).png
+    year: 1992
+    
+  "Sister Act 2 - In göttlicher Mission":
+#    file_poster: /config/assets/movies/Sister Act 2- Back in the Habit (1993).png
+    year: 1993
+    
+### Zorro Movies ###
+  "Die Maske des Zorro":
+#    file_poster: /config/assets/movies/The Mask of Zorro (1998).png
+    year: 1998
+    
+  "Die Legende des Zorro":
+#    file_poster: /config/assets/movies/The Legend of Zorro (2005).png
+    year: 2005
+    
+### House Movies ###
+  "House - Das Horrorhaus":
+#    file_poster: /config/assets/movies/House (1986).png
+    year: 1985
+    
+  "House II - Das Unerwartete":
+#    file_poster: /config/assets/movies/House II- The Second Story (1987).png
+    year: 1987
+    
+### The Purge Movies ###
+  "The Purge - Die Säuberung":
+#    file_poster: /config/assets/movies/The Purge (2013).png
+    year: 2013
+    
+  "The Purge: Election Year":
+#    file_poster: /config/assets/movies/The Purge- Election Year (2016).png
+    year: 2016
+    
+
+    
+### other ### 
+  "16 Blocks":
+#    file_poster: /config/assets/movies/16 Blocks (2006).png
+    year: 2006
+  "20.000 Meilen unter dem Meer":
+#    file_poster: /config/assets/movies/20.000 Meilen unter dem Meer (1954).png
+    year: 1954
+  "Eine Klasse für sich":
+#    file_poster: /config/assets/movies/A League of Their Own (1992).jpg
+    year: 1992
+  "An jedem verdammten Sonntag":
+#    file_poster: /config/assets/movies/Any Given Sunday (1999).png
+    year: 1999
+  "Anastasia":
+#    file_poster: /config/assets/movies/Anastasia (1997).png
+    year: 1997
+  "Attack the Block":
+#    file_poster: /config/assets/movies/Attack the Block (2011).png
+    year: 2011
+  "Aus Liebe zum Spiel":
+#    file_poster: /config/assets/movies/Aus Liebe zum Spiel (1999).png
+    year: 1999
+  "Bandidas":
+#    file_poster: /config/assets/movies/Bandidas (2006).png
+    year: 2006
+  "Bangkok Dangerous":
+#    file_poster: /config/assets/movies/Bangkok Dangerous (2008).png
+    year: 2008
+  "Cleopatra":
+#    file_poster: /config/assets/movies/Cleopatra (1963).png
+    year: 1963
+  "Doom":
+#    file_poster: /config/assets/movies/Doom (2005).png
+    year: 2005
+  "Deep Blue Sea":
+#    file_poster: /config/assets/movies/Deep Blue Sea (1999).png
+    year: 1999
+  "Eine Klasse fur sich":
+#    file_poster: /config/assets/movies/A League of Their Own (1992).png
+    year: 1992
+  "Feivel der Mauswanderer":
+#    file_poster: /config/assets/movies/An American Tail (1986).png
+    year: 1986
+  "Finch":
+#    file_poster: /config/assets/movies/Finch (2021).png
+    year: 2021
+  "Free Guy":
+#    file_poster: /config/assets/movies/Free Guy (2021).png
+    year: 2021
+  "Gegen jede Regel":
+#    file_poster: /config/assets/movies/Remember the Titans (2000).png
+    year: 2000
+  "Gunpowder Milkshake":
+#    file_poster: /config/assets/movies/Gunpowder Milkshake (2021).png
+    year: 2021
+  "Infinite - Lebe unendlich":
+#    file_poster: /config/assets/movies/Infinite (2021).png
+    year: 2021
+  "Interview mit einem Vampir":
+#    file_poster: /config/assets/movies/Interview with the Vampire (1994).png
+    year: 1994
+  "Jungle Cruise":
+#    file_poster: /config/assets/movies/Jungle Cruise (2021).png
+    year: 2021
+  "Killer's Bodyguard 2":
+#    file_poster: /config/assets/movies/Hitman's Wife's Bodyguard (2021).png
+    year: 2021
+  "Kong: Skull Island":
+#    file_poster: /config/assets/movies/Kong- Skull Island (2017).png
+    year: 2017
+  "Moonfall":
+#    file_poster: /config/assets/movies/Moonfall (2022).png
+    year: 2022
+  "Mord im Orientexpress":
+#    file_poster: /config/assets/movies/Murder on the Orient Express (2017).png
+    year: 2017
+  "Once Upon a Time in Venice":
+#    file_poster: /config/assets/movies/Once Upon a Time in Venice (2017).png
+    year: 2017
+  "The Green Mile":
+#    file_poster: /config/assets/movies/The Green Mile (1999).png
+    year: 1999
+  "Star Wars: Episode I - Die dunkle Bedrohung":
+    sort_title: "Star Wars 1"
+  "Star Wars: Episode II - Angriff der Klonkrieger":
+    sort_title: "Star Wars 2"
+  "Star Wars: Episode III - Die Rache der Sith":
+    sort_title: "Star Wars 3"
+  "Star Wars: Episode IV - Eine neue Hoffnung":
+    alt_title: "Krieg der Sterne"
+    sort_title: "Star Wars 4"
+  "Star Wars: Episode V - Das Imperium schlägt zurück":
+    alt_title: "Das Imperium schlägt zurück"
+    sort_title: "Star Wars 5"
+  "Star Wars: Episode VI - Die Rückkehr der Jedi-Ritter":
+    alt_title: "Die Rückkehr der Jedi-Ritter"
+    sort_title: "Star Wars 6"
+  "Star Wars: Episode VII - Das Erwachen der Macht":
+    alt_title: "Star Wars: Das Erwachen der Macht"
+    sort_title: "Star Wars 7"    
+  "Star Wars: Episode VIII - Die letzten Jedi":
+    alt_title: "Star Wars: Die letzten Jedi"
+    sort_title: "Star Wars 8"      
+  "Star Wars: Episode IX - Der Aufstieg Skywalkers":
+    alt_title: "Star Wars: Der Aufstieg Skywalkers"
+    sort_title: "Star Wars 9"       
+  "The Tomorrow War":
+#    file_poster: /config/assets/movies/The Tomorrow War (2021).png
+    year: 2021
+  "Timeline":
+#    file_poster: /config/assets/movies/Timeline (2003).png
+    year: 2003
+  "Together":
+#    file_poster: /config/assets/movies/Together (2021).png
+    year: 2021
+  "Uncharted":
+#    file_poster: /config/assets/movies/Uncharted (2022).png
+    year: 2022
+  "Out of Play: Der Weg zurück":
+#    file_poster: /config/assets/movies/The Way Back (2020).jpg
+    year: 2020

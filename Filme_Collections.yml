@@ -1,0 +1,573 @@
+#####################
+# Movie-Collections #
+#####################
+#templates:
+  
+    # Holiday:
+        # url_poster: <<poster>>
+        # sort_title: +35_<<collection_name>>
+        # collection_order: release
+        # sync_mode: sync
+    # Movie:
+        # tmdb_collection: <<collection>>
+        # tmdb_summary: <<summary>>
+        # url_poster: <<poster>>
+        # sort_title: +15_<<collection_name>>
+        # collection_order: release
+        # sync_mode: sync
+    # MovieTrakt:
+        # sort_title: +15_<<collection_name>>
+        # sync_mode: sync
+    # Collection:
+        # default:
+            # collection_order: release
+            # sort_by: release_date.desc
+        # optional:
+          # - collection
+          # - movie
+          # - list
+          # - poster
+          # - file
+          # - imdb
+          # - details
+          # - trakt
+        # tmdb_collection_details: <<details>>
+        # tmdb_collection: <<collection>>
+        # tmdb_movie: <<movie>>
+        # tmdb_list: <<list>>
+        # imdb_list: <<imdb>>
+        # trakt_list: <<trakt>>
+        # sort_title: +05_<<collection_name>>        
+        # url_poster: <<poster>>
+        # sync_mode: sync
+        # file_poster: <<file>>
+external_templates:
+  file: config/templates.yml
+        
+collections:
+  Christmas:
+    template: {name: Holiday, poster: https://theposterdb.com/api/assets/111696}
+    trakt_list:
+      - https://trakt.tv/users/movistapp/lists/christmas-movies
+      - https://trakt.tv/users/2borno2b/lists/christmas-movies-extravanganza
+      - https://trakt.tv/users/pualani78/lists/christmas-2020
+      - https://trakt.tv/users/veninjak/lists/complete-christmas-2021-copy
+    imdb_list:
+      - https://www.imdb.com/list/ls025976544/
+      - https://www.imdb.com/list/ls003863000/
+      - https://www.imdb.com/list/ls027454200/
+      - https://www.imdb.com/list/ls027886673/
+      - https://www.imdb.com/list/ls097998599/
+    summary: Filme, die rund um die Weihnachtszeit spielen
+    url_poster: https://theposterdb.com/api/assets/75801
+###########################
+#    Movie Collections    #
+###########################
+  "Benjamin":
+    sort_title: "!011__Benjamin"
+    imdb_list:
+      - https://www.imdb.com/list/ls560357787
+      - https://www.imdb.com/list/ls560370461 
+      - https://www.imdb.com/list/ls560370979 
+      - https://www.imdb.com/list/ls560370997 
+      - https://www.imdb.com/list/ls074786392
+      - https://www.imdb.com/list/ls560377154
+    summary: Filme, die für Benni geeignet sind
+    collection_order: release
+
+  "Märchenfilme":
+    template: {name: Collection, list: 8216848}
+    sort_title: "!011_Märchenfilme"
+    summary: klassische Märchenfilme für eine gemütliche Zeit
+    collection_order: release
+    
+
+  X-Men Universe:
+    template: {name: Collection, trakt: https://trakt.tv/users/donxy/lists/x-men-universe?sort=rank,asc} #} # , file: /config/assets/collections/X-Men Collection.png}
+    summary: X-Men Universe in Chronological Order
+    
+  Marvel Cinematic Universe:
+    template: {name: Collection} # , file: /config/assets/collections/Marvel Cinematic Universe/Marvel Cinematic Universe.png}
+    imdb_list: https://www.imdb.com/list/ls538230458/
+    summary: Marvel Cinematic Universe in Chronological Order
+
+  "Sony's Spiderman Universe":
+    template: {name: Collection, imdb: https://www.imdb.com/list/ls561251241}
+    
+  Batman Collection:
+    template: {name: Collection} # , file: /config/assets/collections/Batman Collection.png}
+    imdb_list: https://www.imdb.com/list/ls560355635/
+    summary: Alle Batman-Filme in chronologischer Reihenfolge
+    
+    
+  The Lego Movie Collection:
+    template: {name: Collection} # , file: /config/assets/collections/The Lego Movie Collection.png}
+    sort_title: "!011_Lego Movie Collection"
+    imdb_list: https://www.imdb.com/list/ls560357787/
+    summary: Alle LEGO-Filme in chronologischer Reihenfolge
+    
+    
+  Disney Animation Collection:
+    template: {name: Collection, list: 8199629} # , file: /config/assets/collections/Walt Disney Animation Studios.png}
+    summary: Alle Disney Animations-Filme in chronologischer Reihenfolge
+    sort_by: release_date.desc
+    
+  Disney Live-Action Collection:
+    template: {name: Collection, list: 8199906} # , file: /config/assets/collections/Disney Live-Action Remakes.png}
+    summary: Alle Disney Live-Action-Remakes
+    
+  "Die Eiskönigin Collection":
+    template: {name: Collection, list: 8199912} # , file: /config/assets/collections/Frozen Complete Collection.png}
+    
+
+  The Pixar Theory:
+    template: {name: Collection, list: 8195094} # , file: /config/assets/collections/Pixar Animation Studios.png}
+    sort_title: "!011_Pixar Theory"
+    collection_order: custom
+    summary: Chronological order of the Pixar theory (all Pixar films are in a shared universe that is connected by Boo)
+    
+#    file_poster: /config/assets/collections/mine/Pixar.jpg
+  Findet Nemo Collection:
+    template: {name: Collection, imdb: https://www.imdb.com/list/ls560370461} # , file: "/config/assets/collections/Finding Nemo Collection.png"}
+    collection_order: custom
+    summary: Findet Nemo-Filme
+    
+    
+  "Monster AG Collection":
+    template: {name: Collection, imdb: https://www.imdb.com/list/ls560370979} # , file: "/config/assets/collections/Monsters Inc. Collection.png"}
+    collection_order: custom
+    summary: Monster AG-Filme
+    
+    
+  "Die Unglaublichen Collection":
+    template: {name: Collection, imdb: https://www.imdb.com/list/ls560370997} # , file: "/config/assets/collections/The Incredibles Collection.png"}
+    collection_order: custom
+    summary: Die Unglaublichen-Filme
+    
+  Alien & Predator Collection:
+    template: {name: Collection} # , file: /config/assets/collections/AVP Collection.png}
+    trakt_list: https://trakt.tv/users/donxy/lists/alien-predator-timeline?sort=rank,asc
+    summary: All Alien & Predator movies in the shared universe
+
+  Rocky Collection:
+    template: {name: Collection} # , file: /config/assets/collections/Rocky Collection.png, imdb: https://www.imdb.com/list/ls538336139/}
+    summary: All movies from the Rocky & Creed Universe.
+    tmdb_collection: 
+    - 1575
+    - 553717
+    
+  Fast & Furious Collection:
+    template: {name: Collection} # , file: /config/assets/collections/Fast & Furious- Complete Collection.png}
+    imdb_list: https://www.imdb.com/list/ls095739409/
+    collection_order: custom
+    
+    summary: All movies in the Fast & Furious Universe.
+
+  "Mission Impossible Collection":
+    template: {name: Collection, imdb: https://www.imdb.com/list/ls066600640} # , file: /config/assets/collections/Mission- Impossible Collection.png}
+    summary: "All movies in the Mission Impossible Universe."
+    
+    
+  Indiana Jones Collection:
+    template: {name: Collection} # , file: /config/assets/collections/Indiana Jones Collection.png}
+    imdb_list: https://www.imdb.com/list/ls538364160/
+    collection_order: custom
+    summary: All movies in the Indiana Jones Universe.
+
+  James Bond Collection:
+    template: {name: Collection} # , file: /config/assets/collections/James Bond Collection.png}
+    imdb_list: https://www.imdb.com/list/ls006405458/?sort=release_date,asc
+    collection_order: custom
+    summary: "All movies from the James Bond franchise"
+
+  Star Wars Collection:
+    template: {name: Collection} # , file: /config/assets/collections/Star Wars- The Complete Collection.png}
+    imdb_list: https://www.imdb.com/list/ls538616339/
+    collection_order: custom
+    summary: "Alle Filme und Serien im Star Wars Universum."
+
+  Star Trek Collection:
+    template: {name: Collection} 
+    summary: "Alle Filme im Star Trek Universum."
+    imdb_list: https://www.imdb.com/list/ls538616235/
+    
+  Bud Spencer & Terence Hill Collection:
+    template: {name: Collection}
+    imdb_list: https://www.imdb.com/list/ls074786392/
+    collection_order: custom
+#    file_poster: /config/assets/collections/Bud Spencer & Terence Hill/poster.png
+    summary: "Eine Sammlung von Filmen von und mit Bud Spencer & Terence Hill"
+
+  Harry Potter Collection:
+    template: {name: Collection} # , file: /config/assets/collections/Harry Potter Collection.png}
+    tmdb_collection: 1241
+    tmdb_collection_details: 1241
+    
+
+  Phantastische Tierwesen Collection:
+    template: {name: Collection, collection: 435259, details: 435259} # , file: /config/assets/collections/Fantastic Beasts Collection.png}
+    
+  Ice Age Collection:
+    template: {name: Collection} # , file: /config/assets/collections/Ice Age Collection.png}
+    tmdb_collection: 8354
+    tmdb_collection_details: 8354
+    
+
+  Der Pate Collection:
+    template: {name: Collection} # , file: /config/assets/collections/The Godfather Collection.png}
+    tmdb_collection: 230
+    tmdb_collection_details: 230
+    
+    
+  Pacific Rim Collection:
+    template: {name: Collection, collection: 363369, details: 363369} # , file: /config/assets/collections/Pacific Rim Collection.png}
+    
+  Jurassic Park Collection:
+    template: {name: Collection} # , file: /config/assets/collections/Jurassic Park Collection.png}
+    tmdb_collection: 328
+    tmdb_collection_details: 328
+
+  Blade Runner Collection:
+    template: {name: Collection} # , file: /config/assets/collections/Blade Runner Collection.png}
+    tmdb_collection: 422837
+    tmdb_collection_details: 422837
+    
+
+  "G.I. Joe Collection":
+    template: {name: Collection, collection: 135468} # , file: /config/assets/collections/G.I. Joe (Live-Action) Collection.png}
+    
+    
+  Robocop Collection:
+    template: {name: Collection}
+#    
+    imdb_list: https://www.imdb.com/list/ls036344969/
+    collection_order: release
+    sort_by: release_date.asc
+#    sort_title: +05_Robocop
+#    file_poster: /config/assets/collections/mine/RoboCop.jpg
+
+  The Matrix Collection:
+    template: {name: Collection} # , file: /config/assets/collections/The Matrix Collection.png}
+    sort_title: "!011_Matrix Collection"
+    imdb_list: https://www.imdb.com/list/ls090620507/
+    collection_order: custom
+
+  Kingsman Collection:
+    template: {name: Collection}
+    imdb_list: https://www.imdb.com/list/ls041856939/
+    file_poster: /config/assets/collections/Kingsman Collection.png
+
+  Bourne Collection:
+    template: {name: Collection} # , file: /config/assets/collections/The Bourne Collection.png}
+    imdb_list: https://www.imdb.com/list/ls026772377/
+    collection_order: custom
+    
+  Tomb Raider Collection:
+    template: {name: Collection} # , file: /config/assets/collections/Tomb Raider Collection.png}
+    imdb_list: https://www.imdb.com/list/ls042315317/
+    collection_order: custom
+    
+  "Total Recall Collection":
+    template: {name: Collection} # , file: /config/assets/collections/Total Recall.png}
+    tmdb_movie:
+      - https://www.themoviedb.org/movie/861-total-recall
+      - https://www.themoviedb.org/movie/64635-total-recall
+
+  "Tron Collection":
+    template: {name: Collection, collection: 63043} # , file: /config/assets/collections/TRON Collection.png}
+
+  John Wick Collection:
+    template: {name: Collection} # , file: /config/assets/collections/John Wick Collection.png}
+    tmdb_collection: 404609
+    tmdb_collection_details: 404609
+
+  "Kung Fu Panda Collection":
+    template: {name: Collection, collection: 77816} # , file: /config/assets/collections/Kung Fu Panda Collection.png}
+    
+
+  "Madagascar Collection":
+    template: {name: Collection, collection: 14740} # , file: /config/assets/collections/Madagascar Collection.png}
+    
+
+  "Shrek Collection":
+    template: {name: Collection, collection: 2150, poster: https://theposterdb.com/api/assets/160988 }
+    
+  "Ich, einfach unverbesserlich Collection":
+    template: {name: Collection, collection: 86066} # , file: /config/assets/collections/ich einfach unverbesserlich Collection.png }
+    
+  "Minions Collection":
+    template: {name: Collection, collection: 544669} # , file: /config/assets/collections/Minions Collection.png}
+    
+
+  MonsterVerse (Godzilla):
+    template: {name: Collection, collection: 535313, movie: 293167} # , file: /config/assets/collections/MonsterVerse Collection.png}
+    
+
+  Gremlins Collection:
+    template: {name: Collection, collection: 89151} # , file: /config/assets/collections/The Gremlins Collection.png}
+    
+    
+  Mad Max Collection:
+    template: {name: Collection, collection: 8945} # , file: /config/assets/collections/Mad Max Collection.png}
+    
+    
+  Lethal Weapon Collection:
+    template: {name: Collection, collection: 945} # , file: /config/assets/collections/Lethal Weapon Collection.png}
+    
+    
+  Men In Black Collection:
+    template: {name: Collection, collection: 86055} # , file: /config/assets/collections/Men In Black Collection.png}
+    
+  "Planet der Affen Collection":
+    template: {name: Collection, collection: 173710} # , file: /config/assets/collections/Planet of the Apes Collection.png}
+    
+  Police Academy Collection:
+    template: {name: Collection, collection: 9338} # , file: /config/assets/collections/Police Academy Collection.png}
+    
+  Starship Troopers Collection:
+    template: {name: Collection, collection: 10522} # , file: /config/assets/collections/Starship Troopers Collection.png}
+    
+  "96 Hours Collection":
+    template: {name: Collection, collection: 135483} # , file: /config/assets/collections/Taken Collection.png}
+    
+  Teenage Mutant Ninja Turtles Collection:
+    template: {name: Collection, collection: "1582, 401562"} # , file: /config/assets/collections/Teenage Mutant Ninja Turtles Collection.png}
+    
+  Transformers  Collection:
+    template: {name: Collection, collection: "8650, 623852"} # , file: /config/assets/collections/Transformers Collection.png}
+    
+  The Transporter Collection:
+    template: {name: Collection, collection: 9518} # , file: /config/assets/collections/The Transporter Collection.png}
+    sort_title: "!011_Transporter Collection"
+    
+  Underworld Collection:
+    template: {name: Collection, collection: 2326} # , file: /config/assets/collections/Underworld Collection.png}
+    
+  xXx Collection:
+    template: {name: Collection, collection: 52785} # , file: /config/assets/collections/xXx Collection.png}
+    
+  "Riddick Collection":
+    template: {name: Collection, collection: 2794} # , file: /config/assets/collections/Riddick Collection.png}
+    
+
+  Santa Clause Collection:
+    template: {name: Collection, imdb: https://www.imdb.com/list/ls560377154} # , file: /config/assets/collections/The Santa Clause Collection.png}
+    collection_order: custom
+
+  Ghostbusters Collection:
+    template: {name: Collection, imdb: https://www.imdb.com/list/ls560371810} # , file: /config/assets/collections/Ghostbusters Collection.png}
+    collection_order: custom
+  
+  Jack Reacher Collection:
+    template: {name: Collection, imdb: https://www.imdb.com/list/ls068928895} # , file: /config/assets/collections/Jack Reacher Collection.png}
+    collection_order: custom
+
+  Fluch der Karibik Collection:
+    template: {name: Collection, collection: 295} # , file: /config/assets/collections/Pirates of the Caribbean Collection.png}
+    
+
+  "R.E.D. Collection":
+    template: {name: Collection, collection: 163902} # , file: /config/assets/collections/RED Collection.png}
+    
+  "Monty Python Collection":
+    template: {name: Collection, imdb: https://www.imdb.com/list/ls560312744} # , file: /config/assets/collections/Monty Python.png}
+    
+  "The Maze Runner Collection":
+    template: {name: Collection, collection: 295130} # , file: /config/assets/collections/The Maze Runner Collection.png}
+    sort_title: "!011_Maze Runner Collection"
+
+  "Die Twilight Saga":
+    template: {name: Collection, collection: 33514} # , file: /config/assets/collections/The Maze Runner Collection.png}
+    sort_title: "!011_Twilight Saga"
+
+  "Space Jam Collection":
+    template: {name: Collection, collection: 722961} # , file: /config/assets/collections/Space Jam Collection.png}
+
+  "Stirb Langsam Collection":
+    template: {name: Collection, collection: 1570} # , file: /config/assets/collections/Die Hard Collection.png}
+    
+  "Rambo Collection":
+    template: {name: Collection, collection: 5039} # , file: /config/assets/collections/Rambo Collection.png}
+    
+  "Ocean's Collection":
+    template: {name: Collection, collection: 304} # , file: /config/assets/collections/Ocean's Collection.png}
+    
+  "In einem Land vor unserer Zeit Collection":
+    template: {name: Collection, collection: 19163} # , file: /config/assets/collections/In einem Land vor unserer Zeit Collection.png}
+    
+  "Blade Collection":
+    template: {name: Collection, collection: 735} # , file: /config/assets/collections/Blade Collection.png}
+    
+  "Spider-Man Collection":
+    template: { name: Collection,imdb: https://www.imdb.com/list/ls049852613} # , file: /config/assets/collections/Spider-Man Collection.png}
+
+  "Has Fallen Collection":
+    template: { name: Collection, collection: 386534} # , file: /config/assets/collections/Has Fallen Collection.png}
+    
+  "300 Collection":
+    template: { name: Collection, collection: 125570} # , file: /config/assets/collections/300 Collection.png}
+    
+  "Zurück in die Zukunft Collection":
+    template: { name: Collection, collection: 264} # , file: /config/assets/collections/Back to the Future Collection.png}
+    
+  "Bad Boys Collection":
+    template: { name: Collection, collection: 14890} # , file: /config/assets/collections/Bad Boys Collection.png}
+
+  "Beverly Hills Cop Collection":
+    template: { name: Collection, collection: 85861, poster: https://theposterdb.com/api/assets/152926} # , file: /config/assets/collections/Beverly Hills Cop Collection.png}
+    
+  "Big Mama's Haus Collection":
+    template: { name: Collection, collection: 44979, poster: https://theposterdb.com/api/assets/21293} # , file: /config/assets/collections/Big Momma's House Collection.png}
+    
+  "Crocodile Dundee Collection":
+    template: { name: Collection, collection: 9332, poster: https://theposterdb.com/api/assets/4203} # , file: /config/assets/collections/Crocodile Dundee Collection.png}
+    
+  "DC Extended Universe Collection":
+    template: { name: Collection, list: 8199893} # , file: /config/assets/collections/DC Universe Originals.png}
+
+  "Deadpool Collection":
+    template: { name: Collection, collection: 448150} # , file: /config/assets/collections/Deadpool Collection.png}
+    
+  "Death Race Collection":
+    template: { name: Collection, collection: 86116} # , file: /config/assets/collections/Death Race Collection.png}
+    
+  "Die Klapperschlange Collection":
+    template: { name: Collection, collection: 115838} # , file: /config/assets/collections/Escape From ... Collection.png}
+    sort_title: +05_Klapperschlange Collection
+    
+  "Ghost Rider Collection":
+    template: { name: Collection, collection: 90306} # , file: /config/assets/collections/Ghost Rider Collection.png}
+    
+  "Godzilla Collection":
+    template: { name: Collection, collection: 535313} # , file: /config/assets/collections/Godzilla Collection.png}
+    
+  "Highlander Collection":
+    template: { name: Collection, collection: 8050} # , file: /config/assets/collections/Highlander Collection.png}
+    
+  "Hot Shots Collection":
+    template: { name: Collection, collection: 52988} # , file: /config/assets/collections/Hot Shots! Collection.png}
+    
+  "Hotel Transsilvanien Collection":
+    template: { name: Collection, collection: 185103} # , file: /config/assets/collections/Hotel Transylvania Collection.png}
+    
+  "Independence Day Collection":
+    template: { name: Collection, collection: 304378} # , file: /config/assets/collections/Independence Day Collection.png}
+
+  "IP Man Collection":
+    template: { name: Collection, collection: 70068} # , file: /config/assets/collections/Independence Day Collection.png}
+
+  "Stählerne Adler Collection":
+    template: { name: Collection, collection: 123251} # , file: /config/assets/collections/Iron Eagle Collection.png}
+
+#  "Judge Dredd Collection":
+#    template: { name: Collection, collection: } # , file: /config/assets/collections/Judge Dredd.png}
+    
+  "Kill Bill Collection":
+    template: { name: Collection, collection: 123251} # , file: /config/assets/collections/Kill Bill Collection.png}
+
+  "Mittelerde Collection":
+    template: { name: Collection }
+    imdb_list: https://www.imdb.com/list/ls563998287/
+    collection_order: custom
+    summary: "Geschichten aus Mittelerde in chronologischer Reihenfolge"
+
+  "Resident Evil Collection":
+    template: { name: Collection, collection: 17255, movie: 460458} # , file: /config/assets/collections/Resident Evil Collection.png}
+    
+
+  "Robert Langdon Collection":
+    template: { name: Collection, collection: 115776} # , file: /config/assets/collections/The Robert Langdon Collection.png}
+    
+
+  "Rush Hour Collection":
+    template: { name: Collection, collection: 90863} # , file: /config/assets/collections/Rush Hour Collection.png}
+
+  "Scary Movie Collection":
+    template: { name: Collection, collection: 4246} # , file: /config/assets/collections/Rush Hour Collection.png}
+
+  "Step Up Collection":
+    template: { name: Collection, collection: 86092} # , file: /config/assets/collections/Step Up Collection.png}
+    
+
+  "Stomp The Yard Collection":
+    template: { name: Collection, collection: 160727} # , file: /config/assets/collections/Stomp the Yard Collection.png}
+    
+
+  "The Expendables Collection":
+    template: { name: Collection, collection: 160727} # , file: /config/assets/collections/The Expendables Collection.png}
+    sort_title: "!011_Expendables Collection"
+    
+
+#  "The Hobbit Collection":
+#    template: { name: Collection, collection: 121938} # , file: /config/assets/collections/The Hobbit Collection.png}
+#    sort_title: "!011_Hobbit Collection"
+#    
+    
+#  "Herr der Ringe Collection":
+#    template: { name: Collection, collection: 123251} # , file: /config/assets/collections/The Lord of the Rings Collection.png}
+#    
+
+  "American Pie Presents Collection":
+    template: { name: Collection, collection: 298820}
+
+  "Asterix & Obelix Collection":
+    template: { name: Collection, collection: "2396, 94039"}
+
+  "Die Tribute von Panem Collection":
+    template: { name: Collection, collection: 131635} # , file: /config/assets/collections/The Hunger Games Collection.png}
+    sort_title: "!011_Tribute Collection"
+
+  "ES Collection":
+    template: { name: Collection, collection: 477962} # , file: /config/assets/collections/It Collection.png}
+
+  "Hangover Collection":
+    template: {name: Collection, collection: 86119}
+
+  "House Collection":
+    template: { name: Collection, collection: 102782} # , file: /config/assets/collections/House Collection.png}
+
+  "Jack Ryan Collection":
+    template: { name: Collection, list: 8200018} # , file: /config/assets/collections/The Jack Ryan Collection.png}
+    
+  "Karate Kid Collection":
+    template: { name: Collection, list: 8200021} # , file: /config/assets/collections/The Karate Kid Collection.png}
+    
+  "Die Mumie Collection":
+    template: { name: Collection, collection: 1733} # , file: /config/assets/collections/The Mummy Collection.png}
+    
+  "Jeepers Creepers Collection":
+    template: { name: Collection, collection: 94899} # , file: /config/assets/collections/Jeepers Creepers Collection.png}
+
+  "Men in Black Collection":
+    template: { name: Collection, collection: 86055, poster: https://theposterdb.com/api/assets/103970} # , file: /config/assets/collections/Jeepers Creepers Collection.png}
+
+  "The Purge Collection":
+    template: { name: Collection, collection: 256322} # , file: /config/assets/collections/The Purge Collection.png}
+    sort_title: "!011_Purge Collection"
+    
+  "Terminator Collection":
+    template: { name: Collection, collection: 528} # , file: /config/assets/collections/The Terminator Collection.png}
+    
+  "Sister Act Collection":
+    template: { name: Collection, collection: 103573} # , file: /config/assets/collections/Sister Act Collection.png}
+  
+  "The Amazing Spider-Man Collection":
+    template: { name: Collection, collection: 125574} # , file: /config/assets/collections/Sister Act Collection.png}
+
+  "The Equalizer Collection":
+    template: { name: Collection, collection: 523855} # , file: /config/assets/collections/Sister Act Collection.png}
+
+  "Top Gun Collection":
+    template: { name: Collection, collection: 531330} # , file: /config/assets/collections/Sister Act Collection.png}
+
+  "Toy Story Collection":
+    template: { name: Collection, collection: 10194} # , file: /config/assets/collections/Sister Act Collection.png}
+
+  "Universal Soldier Collection":
+    template: { name: Collection, collection: 10713} # , file: /config/assets/collections/Universal Soldier Collection.png}
+
+  "Wayne's World Collection":
+    template: { name: Collection, collection: 8979} # , file: /config/assets/collections/Wayne's World Collection.png}
+
+  "Zorro Collection":
+    template: { name: Collection, collection: 8979} # , file: /config/assets/collections/Zorro Collection.png}
