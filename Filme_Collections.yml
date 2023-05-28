@@ -42,7 +42,7 @@
         # sync_mode: sync
         # file_poster: <<file>>
 external_templates:
-  file: config/templates.yml
+  repo: templates
         
 collections:
   Christmas:
