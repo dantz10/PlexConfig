@@ -145,7 +145,7 @@ collections:
     summary: Die Unglaublichen-Filme
     
   Alien & Predator Collection:
-    template: {name: Collection} # , file: /config/assets/collections/AVP Collection.png}
+    template: {name: Collection, poster: https://theposterdb.com/api/assets/341983} # , file: /config/assets/collections/AVP Collection.png}
     trakt_list: https://trakt.tv/users/donxy/lists/alien-predator-timeline?sort=rank,asc
     summary: All Alien & Predator movies in the shared universe
 
@@ -274,7 +274,7 @@ collections:
       - https://www.themoviedb.org/movie/64635-total-recall
 
   "Tron Collection":
-    template: {name: Collection, collection: 63043} # , file: /config/assets/collections/TRON Collection.png}
+    template: {name: Collection, collection: 63043, poster: https://theposterdb.com/api/assets/341911} # , file: /config/assets/collections/TRON Collection.png}
 
   John Wick Collection:
     template: {name: Collection} # , file: /config/assets/collections/John Wick Collection.png}
@@ -341,7 +341,7 @@ collections:
     sort_title: "!011_Transporter Collection"
     
   Underworld Collection:
-    template: {name: Collection, collection: 2326} # , file: /config/assets/collections/Underworld Collection.png}
+    template: {name: Collection, collection: 2326, poster: https://theposterdb.com/api/assets/341924} # , file: /config/assets/collections/Underworld Collection.png}
     
   xXx Collection:
     template: {name: Collection, collection: 52785} # , file: /config/assets/collections/xXx Collection.png}
@@ -571,7 +571,7 @@ collections:
     template: { name: Collection, collection: 10713} # , file: /config/assets/collections/Universal Soldier Collection.png}
 
   "Wayne's World Collection":
-    template: { name: Collection, collection: 8979} # , file: /config/assets/collections/Wayne's World Collection.png}
+    template: { name: Collection, collection: 8979, poster: https://theposterdb.com/api/assets/341931} # , file: /config/assets/collections/Wayne's World Collection.png}
 
   "Zorro Collection":
     template: { name: Collection, collection: 8979} # , file: /config/assets/collections/Zorro Collection.png}
