@@ -371,10 +371,7 @@ collections:
     
   "Rambo Collection":
     template: {name: Collection, collection: 5039} # , file: /config/assets/collections/Rambo Collection.png}
-    
-  "Ocean's Collection":
-    template: {name: Collection, collection: 304} # , file: /config/assets/collections/Ocean's Collection.png}
-    
+
   "In einem Land vor unserer Zeit Collection":
     template: {name: Collection, collection: 19163} # , file: /config/assets/collections/In einem Land vor unserer Zeit Collection.png}
     
@@ -513,7 +510,7 @@ collections:
     template: { name: Collection, list: 8200021} # , file: /config/assets/collections/The Karate Kid Collection.png}
 
   "Jeepers Creepers Collection":
-    template: { name: Collection, collection: 94899} # , file: /config/assets/collections/Jeepers Creepers Collection.png}
+    template: { name: Collection, collection: 94899, poster: https://theposterdb.com/api/assets/341680}
 
   "Men in Black Collection":
     template: { name: Collection, collection: 86055} # , file: /config/assets/collections/Jeepers Creepers Collection.png}
@@ -522,11 +519,17 @@ collections:
     template: { name: Collection, collection: 1733} # , file: /config/assets/collections/The Mummy Collection.png}
     sort_title: "!011_Mumie Collection"
 
+  "Nachts im Museum Collection":
+    template: {name: Collection, collection: 85943, poster: https://theposterdb.com/api/assets/341768}
+
   "Die Nackte Kanone Collection":
     template: {name: Collection, collection: 37139}
     sort_title: "!011_Nackte Kanone Collection"
     
-  Pacific Rim Collection:
+  "Ocean's Collection":
+    template: {name: Collection, collection: 304, poster: https://theposterdb.com/api/assets/341776}
+    
+  "Pacific Rim Collection":
     template: {name: Collection, collection: 363369, details: 363369, poster: https://theposterdb.com/api/assets/341782}
     
   "The Purge Collection":
