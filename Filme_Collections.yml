@@ -106,16 +106,6 @@ collections:
     imdb_list: https://www.imdb.com/list/ls560357787/
     summary: Alle LEGO-Filme in chronologischer Reihenfolge
     
-    
-  Disney Animation Collection:
-    template: {name: Collection, list: 8199629} # , file: /config/assets/collections/Walt Disney Animation Studios.png}
-    summary: Alle Disney Animations-Filme in chronologischer Reihenfolge
-    sort_by: release_date.desc
-    
-  Disney Live-Action Collection:
-    template: {name: Collection, list: 8199906} # , file: /config/assets/collections/Disney Live-Action Remakes.png}
-    summary: Alle Disney Live-Action-Remakes
-    
   "Die Eiskönigin Collection":
     template: {name: Collection, list: 8199912} # , file: /config/assets/collections/Frozen Complete Collection.png}
     
@@ -489,7 +479,17 @@ collections:
 
   "Asterix & Obelix Collection":
     template: { name: Collection, collection: "2396, 94039"}
-
+    
+  Disney Animation Collection:
+    template: {name: Collection, list: 8199629}
+    summary: Alle Disney Animations-Filme in chronologischer Reihenfolge
+    sort_by: release_date.desc
+    sort_title: "!011_Disney Animation Collection"
+    
+  Disney Live-Action Collection:
+    template: {name: Collection, list: 8199906}
+    summary: Alle Disney Live-Action-Remakes
+    
   "The Equalizer Collection":
     template: { name: Collection, collection: 523855} # , file: /config/assets/collections/Sister Act Collection.png}
     sort_title: "!011_Equalizer Collection"
