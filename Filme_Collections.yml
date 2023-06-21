@@ -483,7 +483,6 @@ collections:
   Disney Animation Collection:
     template: {name: Collection, list: 8199629}
     summary: Alle Disney Animations-Filme in chronologischer Reihenfolge
-    sort_by: release_date.desc
     sort_title: "!011_Disney Animation Collection"
     
   Disney Live-Action Collection:
