@@ -506,12 +506,18 @@ collections:
   "Karate Kid Collection":
     template: { name: Collection, list: 8200021} # , file: /config/assets/collections/The Karate Kid Collection.png}
 
+  "Kevin Allein... Collection":
+    template: { name: Collection, poster: https://theposterdb.com/api/assets/341661, list: 9888}
+
   "Killer's Bodyguard Collection":
     template: { name: Collection, list: 608101, poster: https://theposterdb.com/api/assets/341649}
 
   "Die Kindsköpfe Collection":
     template: {name: Collection, poster: https://theposterdb.com/api/assets/341646, collection: 180546}
     sort_title: "!011_Kindsköpfe Collection"
+
+  "LEGO Collection":
+    template: { name: Collection, tvdb_list: https://thetvdb.com/lists/15422, poster: https://theposterdb.com/api/assets/341055}
 
   "Jeepers Creepers Collection":
     template: { name: Collection, collection: 94899, poster: https://theposterdb.com/api/assets/341680}
@@ -535,7 +541,10 @@ collections:
     
   "Pacific Rim Collection":
     template: {name: Collection, collection: 363369, details: 363369, poster: https://theposterdb.com/api/assets/341782}
-    
+
+  "Police Story Collection":
+    template: { name: Colection, poster: https://theposterdb.com/api/assets/341306, list: 269098}
+
   "The Purge Collection":
     template: { name: Collection, collection: 256322} # , file: /config/assets/collections/The Purge Collection.png}
     sort_title: "!011_Purge Collection"

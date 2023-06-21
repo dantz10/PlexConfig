@@ -3,6 +3,9 @@ external_templates:
         
 collections:
 
+  "LEGO Collection":
+    template: { name: Collection, tvdb_list: https://thetvdb.com/lists/15422, poster: https://theposterdb.com/api/assets/341055}
+
   "LEGO Jurassic World Collection":
     template: { name: Collection, poster: https://theposterdb.com/api/assets/341554}
     tmdb_list: 8257318
