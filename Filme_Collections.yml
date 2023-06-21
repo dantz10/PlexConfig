@@ -506,6 +506,9 @@ collections:
   "Karate Kid Collection":
     template: { name: Collection, list: 8200021} # , file: /config/assets/collections/The Karate Kid Collection.png}
 
+  "Killer's Bodyguard Collection":
+    template: { name: Collection, list: 608101, poster: https://theposterdb.com/api/assets/341649}
+
   "Die Kindsköpfe Collection":
     template: {name: Collection, poster: https://theposterdb.com/api/assets/341646, collection: 180546}
     sort_title: "!011_Kindsköpfe Collection"
