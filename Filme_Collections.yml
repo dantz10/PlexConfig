@@ -539,7 +539,11 @@ collections:
     template: { name: Collection, collection: 94899} # , file: /config/assets/collections/Jeepers Creepers Collection.png}
 
   "Men in Black Collection":
-    template: { name: Collection, collection: 86055, poster: https://theposterdb.com/api/assets/103970} # , file: /config/assets/collections/Jeepers Creepers Collection.png}
+    template: { name: Collection, collection: 86055} # , file: /config/assets/collections/Jeepers Creepers Collection.png}
+
+  "Die Nackte Kanone Collection":
+    template: {name: Collection, collection: 37139}
+    sort_title: "!011_Nackte Kanone Collection"
 
   "The Purge Collection":
     template: { name: Collection, collection: 256322} # , file: /config/assets/collections/The Purge Collection.png}
