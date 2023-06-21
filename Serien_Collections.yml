@@ -5,11 +5,11 @@ collections:
 
   "LEGO Jurassic World Collection":
     template: { name: Collection, poster: https://theposterdb.com/api/assets/341554}
-    list: 8257318
+    tmdb_list: 8257318
 
   "Marvel Cinematic Universe":
     template: { name: Collection }
-    list: 8257319
+    tmdb_list: 8257319
 
   "Mittelerde Collection":
     template: { name: Collection }
