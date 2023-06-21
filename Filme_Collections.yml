@@ -507,7 +507,7 @@ collections:
     template: { name: Collection, list: 8200021} # , file: /config/assets/collections/The Karate Kid Collection.png}
 
   "Kevin Allein... Collection":
-    template: { name: Collection, poster: https://theposterdb.com/api/assets/341661, list: 9888}
+    template: { name: Collection, poster: https://theposterdb.com/api/assets/341661, collection: 9888}
 
   "Killer's Bodyguard Collection":
     template: { name: Collection, list: 608101, poster: https://theposterdb.com/api/assets/341649}
