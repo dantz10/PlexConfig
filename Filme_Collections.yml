@@ -398,7 +398,7 @@ collections:
     
   "Die Klapperschlange Collection":
     template: { name: Collection, collection: 115838} # , file: /config/assets/collections/Escape From ... Collection.png}
-    sort_title: +05_Klapperschlange Collection
+    sort_title: "!011_Klapperschlange Collection"
     
   "Ghost Rider Collection":
     template: { name: Collection, collection: 90306} # , file: /config/assets/collections/Ghost Rider Collection.png}
