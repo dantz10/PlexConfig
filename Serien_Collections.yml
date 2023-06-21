@@ -11,6 +11,9 @@ collections:
     template: { name: Collection }
     tmdb_list: 8257319
 
+  "Marvel Anime Collection":
+    template: { name: Collection, tmdb_list: 8257323}
+
   "Mittelerde Collection":
     template: { name: Collection }
     imdb_list: https://www.imdb.com/list/ls563998287/
