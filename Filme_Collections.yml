@@ -279,12 +279,7 @@ collections:
 
   MonsterVerse (Godzilla):
     template: {name: Collection, collection: 535313, movie: 293167} # , file: /config/assets/collections/MonsterVerse Collection.png}
-    
-
-  Gremlins Collection:
-    template: {name: Collection, collection: 89151} # , file: /config/assets/collections/The Gremlins Collection.png}
-    
-    
+   
   Mad Max Collection:
     template: {name: Collection, collection: 8945} # , file: /config/assets/collections/Mad Max Collection.png}
     
@@ -496,6 +491,9 @@ collections:
   "ES Collection":
     template: { name: Collection, collection: 477962} # , file: /config/assets/collections/It Collection.png}
 
+  "Gremlins Collection":
+    template: {name: Collection, collection: 89151, poster: https://theposterdb.com/api/assets/341643}
+
   "Hangover Collection":
     template: {name: Collection, collection: 86119}
 
@@ -507,6 +505,10 @@ collections:
     
   "Karate Kid Collection":
     template: { name: Collection, list: 8200021} # , file: /config/assets/collections/The Karate Kid Collection.png}
+
+  "Die Kindsköpfe Collection":
+    template: {name: Collection, poster: https://theposterdb.com/api/assets/341646, collection: 180546}
+    sort_title: "!011_Kindsköpfe Collection"
 
   "Jeepers Creepers Collection":
     template: { name: Collection, collection: 94899, poster: https://theposterdb.com/api/assets/341680}
@@ -544,6 +546,11 @@ collections:
 
   "Scary Movie Collection":
     template: { name: Collection, collection: 4246, poster: https://theposterdb.com/api/assets/341834} # , file: /config/assets/collections/Rush Hour Collection.png}
+
+  "Scooby-Doo Animated Collection":
+    template: {name: Collection, poster: https://theposterdb.com/api/assets/341569}
+    summary: "Alle Animationsfilme, in denen der markante Hund Scooby-Doo vorkommt"
+    trakt_list: https://trakt.tv/users/mikenobbs/lists/scooby-doo-animation?sort=released,asc
 
   "Sherlock Holmes Collection":
     template: {name: Collection, collection: 102322, poster: https://theposterdb.com/api/assets/341854}
