@@ -2,11 +2,17 @@ external_templates:
   file: config/templates.yml
 
 metadata:
+
+  "IP MAN":
+    tmdb_show: 206496
+
   "The Spectacular Spider-Man":
     sort_title: "Marvel Anime: The Spectacular Spider-Man"
 
   "Marvel Anime: Wolverine":
     alt_title: "Wolverine"
+    year: 2011
+    tmdb_show: 38247
     sort_title: "Marvel Anime: Wolverine"
 
   "Marvel Anime: X-Men":
