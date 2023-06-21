@@ -218,10 +218,6 @@ collections:
     tmdb_collection: 230
     tmdb_collection_details: 230
     
-    
-  Pacific Rim Collection:
-    template: {name: Collection, collection: 363369, details: 363369} # , file: /config/assets/collections/Pacific Rim Collection.png}
-    
   Jurassic Park Collection:
     template: {name: Collection} # , file: /config/assets/collections/Jurassic Park Collection.png}
     tmdb_collection: 328
@@ -262,19 +258,11 @@ collections:
     imdb_list: https://www.imdb.com/list/ls026772377/
     collection_order: custom
     
-  Tomb Raider Collection:
-    template: {name: Collection} # , file: /config/assets/collections/Tomb Raider Collection.png}
-    imdb_list: https://www.imdb.com/list/ls042315317/
-    collection_order: custom
-    
   "Total Recall Collection":
     template: {name: Collection} # , file: /config/assets/collections/Total Recall.png}
     tmdb_movie:
       - https://www.themoviedb.org/movie/861-total-recall
       - https://www.themoviedb.org/movie/64635-total-recall
-
-  "Tron Collection":
-    template: {name: Collection, collection: 63043, poster: https://theposterdb.com/api/assets/341911} # , file: /config/assets/collections/TRON Collection.png}
 
   John Wick Collection:
     template: {name: Collection} # , file: /config/assets/collections/John Wick Collection.png}
@@ -334,7 +322,7 @@ collections:
     template: {name: Collection, collection: "1582, 401562"} # , file: /config/assets/collections/Teenage Mutant Ninja Turtles Collection.png}
     
   Transformers  Collection:
-    template: {name: Collection, collection: "8650, 623852"} # , file: /config/assets/collections/Transformers Collection.png}
+    template: {name: Collection, collection: "8650, 623852", poster: https://theposterdb.com/api/assets/341896} # , file: /config/assets/collections/Transformers Collection.png}
     
   The Transporter Collection:
     template: {name: Collection, collection: 9518} # , file: /config/assets/collections/The Transporter Collection.png}
@@ -349,11 +337,6 @@ collections:
   "Riddick Collection":
     template: {name: Collection, collection: 2794} # , file: /config/assets/collections/Riddick Collection.png}
     
-
-  Santa Clause Collection:
-    template: {name: Collection, imdb: https://www.imdb.com/list/ls560377154} # , file: /config/assets/collections/The Santa Clause Collection.png}
-    collection_order: custom
-
   Ghostbusters Collection:
     template: {name: Collection, imdb: https://www.imdb.com/list/ls560371810} # , file: /config/assets/collections/Ghostbusters Collection.png}
     collection_order: custom
@@ -478,13 +461,6 @@ collections:
   "Robert Langdon Collection":
     template: { name: Collection, collection: 115776} # , file: /config/assets/collections/The Robert Langdon Collection.png}
     
-
-  "Rush Hour Collection":
-    template: { name: Collection, collection: 90863} # , file: /config/assets/collections/Rush Hour Collection.png}
-
-  "Scary Movie Collection":
-    template: { name: Collection, collection: 4246} # , file: /config/assets/collections/Rush Hour Collection.png}
-
   "Step Up Collection":
     template: { name: Collection, collection: 86092} # , file: /config/assets/collections/Step Up Collection.png}
     
@@ -506,16 +482,20 @@ collections:
 #  "Herr der Ringe Collection":
 #    template: { name: Collection, collection: 123251} # , file: /config/assets/collections/The Lord of the Rings Collection.png}
 #    
-
+  
+  "The Amazing Spider-Man Collection":
+    template: { name: Collection, collection: 125574} # , file: /config/assets/collections/Sister Act Collection.png}
+    sort_title: "!011_Amazing Spider-Man Collection"
+    
   "American Pie Presents Collection":
     template: { name: Collection, collection: 298820}
 
   "Asterix & Obelix Collection":
     template: { name: Collection, collection: "2396, 94039"}
 
-  "Die Tribute von Panem Collection":
-    template: { name: Collection, collection: 131635} # , file: /config/assets/collections/The Hunger Games Collection.png}
-    sort_title: "!011_Tribute Collection"
+  "The Equalizer Collection":
+    template: { name: Collection, collection: 523855} # , file: /config/assets/collections/Sister Act Collection.png}
+    sort_title: "!011_Equalizer Collection"
 
   "ES Collection":
     template: { name: Collection, collection: 477962} # , file: /config/assets/collections/It Collection.png}
@@ -531,41 +511,64 @@ collections:
     
   "Karate Kid Collection":
     template: { name: Collection, list: 8200021} # , file: /config/assets/collections/The Karate Kid Collection.png}
-    
-  "Die Mumie Collection":
-    template: { name: Collection, collection: 1733} # , file: /config/assets/collections/The Mummy Collection.png}
-    
+
   "Jeepers Creepers Collection":
     template: { name: Collection, collection: 94899} # , file: /config/assets/collections/Jeepers Creepers Collection.png}
 
   "Men in Black Collection":
     template: { name: Collection, collection: 86055} # , file: /config/assets/collections/Jeepers Creepers Collection.png}
+    
+  "Die Mumie Collection":
+    template: { name: Collection, collection: 1733} # , file: /config/assets/collections/The Mummy Collection.png}
+    sort_title: "!011_Mumie Collection"
 
   "Die Nackte Kanone Collection":
     template: {name: Collection, collection: 37139}
     sort_title: "!011_Nackte Kanone Collection"
-
+    
+  Pacific Rim Collection:
+    template: {name: Collection, collection: 363369, details: 363369, poster: https://theposterdb.com/api/assets/341782}
+    
   "The Purge Collection":
     template: { name: Collection, collection: 256322} # , file: /config/assets/collections/The Purge Collection.png}
     sort_title: "!011_Purge Collection"
+
+  "Rush Hour Collection":
+    template: { name: Collection, collection: 90863, poster: https://theposterdb.com/api/assets/341811} 
+
+  Santa Clause Collection:
+    template: {name: Collection, imdb: https://www.imdb.com/list/ls560377154, poster: https://theposterdb.com/api/assets/341824}
+    collection_order: custom
+
+  "Scary Movie Collection":
+    template: { name: Collection, collection: 4246, poster: https://theposterdb.com/api/assets/341834} # , file: /config/assets/collections/Rush Hour Collection.png}
+
+  "Sherlock Holmes Collection":
+    template: {name: Collection, collection: 102322, poster: https://theposterdb.com/api/assets/341854}
+
+  "Sister Act Collection":
+    template: { name: Collection, collection: 103573} # , file: /config/assets/collections/Sister Act Collection.png}
     
   "Terminator Collection":
     template: { name: Collection, collection: 528} # , file: /config/assets/collections/The Terminator Collection.png}
-    
-  "Sister Act Collection":
-    template: { name: Collection, collection: 103573} # , file: /config/assets/collections/Sister Act Collection.png}
-  
-  "The Amazing Spider-Man Collection":
-    template: { name: Collection, collection: 125574} # , file: /config/assets/collections/Sister Act Collection.png}
 
-  "The Equalizer Collection":
-    template: { name: Collection, collection: 523855} # , file: /config/assets/collections/Sister Act Collection.png}
+  Tomb Raider Collection:
+    template: {name: Collection, poster: https://theposterdb.com/api/assets/341884} # , file: /config/assets/collections/Tomb Raider Collection.png}
+    imdb_list: https://www.imdb.com/list/ls042315317/
+    collection_order: custom
 
   "Top Gun Collection":
     template: { name: Collection, collection: 531330} # , file: /config/assets/collections/Sister Act Collection.png}
 
+  "Die Tribute von Panem Collection":
+    template: { name: Collection, collection: 131635} # , file: /config/assets/collections/The Hunger Games Collection.png}
+    sort_title: "!011_Tribute Collection"
+    
   "Toy Story Collection":
     template: { name: Collection, collection: 10194} # , file: /config/assets/collections/Sister Act Collection.png}
+
+  "Tron Collection":
+    template: {name: Collection, collection: 63043, poster: https://theposterdb.com/api/assets/341911} # , file: /config/assets/collections/TRON Collection.png}    
 
   "Universal Soldier Collection":
     template: { name: Collection, collection: 10713} # , file: /config/assets/collections/Universal Soldier Collection.png}
