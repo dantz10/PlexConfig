@@ -13,7 +13,7 @@ collections:
 
   "Marvel Anime Collection":
     template: { name: Collection}
-    tmdb_list: 8257323
+    tvdb_list: https://thetvdb.com/lists/15421
 
   "Mittelerde Collection":
     template: { name: Collection }
