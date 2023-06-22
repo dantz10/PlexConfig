@@ -30,7 +30,7 @@ collections:
     trakt_list: https://trakt.tv/users/mikenobbs/lists/scooby-doo-animation?sort=released,asc
 
   "Star Trek Collection":
-    template: {name: Collection} 
+    template: {name: Collection, poster: https://theposterdb.com/api/assets/339950} 
     summary: "Alle Serien im Star Trek Universum."
     imdb_list: https://www.imdb.com/list/ls538616235/
 

@@ -109,13 +109,6 @@ collections:
   "Die Eiskönigin Collection":
     template: {name: Collection, list: 8199912} # , file: /config/assets/collections/Frozen Complete Collection.png}
     
-
-  The Pixar Theory:
-    template: {name: Collection, list: 8195094} # , file: /config/assets/collections/Pixar Animation Studios.png}
-    sort_title: "!011_Pixar Theory"
-    collection_order: custom
-    summary: Chronological order of the Pixar theory (all Pixar films are in a shared universe that is connected by Boo)
-    
 #    file_poster: /config/assets/collections/mine/Pixar.jpg
   Findet Nemo Collection:
     template: {name: Collection, imdb: https://www.imdb.com/list/ls560370461} # , file: "/config/assets/collections/Finding Nemo Collection.png"}
@@ -175,27 +168,13 @@ collections:
     imdb_list: https://www.imdb.com/list/ls538616339/
     collection_order: custom
     summary: "Alle Filme und Serien im Star Wars Universum."
-
-  Star Trek Collection:
-    template: {name: Collection} 
-    summary: "Alle Filme im Star Trek Universum."
-    imdb_list: https://www.imdb.com/list/ls538616235/
-    
+  
   Bud Spencer & Terence Hill Collection:
     template: {name: Collection}
     imdb_list: https://www.imdb.com/list/ls074786392/
     collection_order: custom
 #    file_poster: /config/assets/collections/Bud Spencer & Terence Hill/poster.png
     summary: "Eine Sammlung von Filmen von und mit Bud Spencer & Terence Hill"
-
-  Harry Potter Collection:
-    template: {name: Collection} # , file: /config/assets/collections/Harry Potter Collection.png}
-    tmdb_collection: 1241
-    tmdb_collection_details: 1241
-    
-
-  Phantastische Tierwesen Collection:
-    template: {name: Collection, collection: 435259, details: 435259} # , file: /config/assets/collections/Fantastic Beasts Collection.png}
     
   Ice Age Collection:
     template: {name: Collection} # , file: /config/assets/collections/Ice Age Collection.png}
@@ -260,7 +239,7 @@ collections:
     tmdb_collection_details: 404609
 
   "Kung Fu Panda Collection":
-    template: {name: Collection, collection: 77816} # , file: /config/assets/collections/Kung Fu Panda Collection.png}
+    template: {name: Collection, collection: 77816, poster: https://theposterdb.com/api/assets/338982}
     
 
   "Madagascar Collection":
@@ -426,9 +405,6 @@ collections:
 
 #  "Judge Dredd Collection":
 #    template: { name: Collection, collection: } # , file: /config/assets/collections/Judge Dredd.png}
-    
-  "Kill Bill Collection":
-    template: { name: Collection, collection: 123251} # , file: /config/assets/collections/Kill Bill Collection.png}
 
   "Mittelerde Collection":
     template: { name: Collection }
@@ -474,16 +450,10 @@ collections:
 
   "Asterix & Obelix Collection":
     template: { name: Collection, collection: "2396, 94039"}
-    
-  Disney Animation Collection:
-    template: {name: Collection, list: 8199629}
-    summary: Alle Disney Animations-Filme in chronologischer Reihenfolge
-    sort_title: "!011_Disney Animation Collection"
-    
-  Disney Live-Action Collection:
-    template: {name: Collection, list: 8199906}
-    summary: Alle Disney Live-Action-Remakes
-    
+
+  "Drachenzähmen leicht gemacht Collection":
+    template: {name: Collection, poster: https://theposterdb.com/api/assets/339012, collection: 89137}
+
   "The Equalizer Collection":
     template: { name: Collection, collection: 523855} # , file: /config/assets/collections/Sister Act Collection.png}
     sort_title: "!011_Equalizer Collection"
@@ -497,6 +467,11 @@ collections:
   "Hangover Collection":
     template: {name: Collection, collection: 86119}
 
+  "Harry Potter Collection":
+    template: {name: Collection, poster: https://theposterdb.com/api/assets/339970}
+    tmdb_collection: 1241
+    tmdb_collection_details: 1241
+
   "House Collection":
     template: { name: Collection, collection: 102782} # , file: /config/assets/collections/House Collection.png}
 
@@ -508,6 +483,9 @@ collections:
 
   "Kevin Allein... Collection":
     template: { name: Collection, poster: https://theposterdb.com/api/assets/341661, collection: 9888}
+    
+  "Kill Bill Collection":
+    template: { name: Collection, collection: 123251, poster: https://theposterdb.com/api/assets/338535} 
 
   "Killer's Bodyguard Collection":
     template: { name: Collection, list: 608101, poster: https://theposterdb.com/api/assets/341649}
@@ -542,6 +520,9 @@ collections:
   "Pacific Rim Collection":
     template: {name: Collection, collection: 363369, details: 363369, poster: https://theposterdb.com/api/assets/341782}
 
+  "Phantastische Tierwesen Collection":
+    template: {name: Collection, collection: 435259, details: 435259, poster: https://theposterdb.com/api/assets/339991}
+
   "Police Story Collection":
     template: { name: Colection, poster: https://theposterdb.com/api/assets/341306, list: 269098}
 
@@ -552,7 +533,7 @@ collections:
   "Rush Hour Collection":
     template: { name: Collection, collection: 90863, poster: https://theposterdb.com/api/assets/341811} 
 
-  Santa Clause Collection:
+  "Santa Clause Collection":
     template: {name: Collection, imdb: https://www.imdb.com/list/ls560377154, poster: https://theposterdb.com/api/assets/341824}
     collection_order: custom
 
@@ -569,11 +550,16 @@ collections:
 
   "Sister Act Collection":
     template: { name: Collection, collection: 103573} # , file: /config/assets/collections/Sister Act Collection.png}
-    
+
+  "Star Trek Collection":
+    template: {name: Collection, poster: https://theposterdb.com/api/assets/339950} 
+    summary: "Alle Filme im Star Trek Universum."
+    imdb_list: https://www.imdb.com/list/ls538616235/
+
   "Terminator Collection":
     template: { name: Collection, collection: 528} # , file: /config/assets/collections/The Terminator Collection.png}
 
-  Tomb Raider Collection:
+  "Tomb Raider Collection":
     template: {name: Collection, poster: https://theposterdb.com/api/assets/341884} # , file: /config/assets/collections/Tomb Raider Collection.png}
     imdb_list: https://www.imdb.com/list/ls042315317/
     collection_order: custom
@@ -597,5 +583,33 @@ collections:
   "Wayne's World Collection":
     template: { name: Collection, collection: 8979, poster: https://theposterdb.com/api/assets/341931} # , file: /config/assets/collections/Wayne's World Collection.png}
 
+  "Wizarding World Collection":
+    template: {name: Collection, poster: https://theposterdb.com/api/assets/339997, collection: "435259, 1241"}
+
   "Zorro Collection":
     template: { name: Collection, collection: 8979} # , file: /config/assets/collections/Zorro Collection.png}
+
+##################################
+#    Studio Movie Collections    #
+##################################
+
+    
+  "Disney Animation Collection":
+    template: {name: Collection, list: 8199629}
+    summary: Alle Disney Animations-Filme in chronologischer Reihenfolge
+    sort_title: "!011_Disney Animation Collection"
+    
+  "Disney Live-Action Collection":
+    template: {name: Collection, list: 8199906, poster: https://theposterdb.com/api/assets/339588}
+    summary: Alle Disney Live-Action-Remakes
+
+  "DreamWorks Collection":
+    template: {name: Collection, list: 8257429, poster: https://theposterdb.com/api/assets/339216}
+    summary: "Filme und Serien aus dem Hause DreamWorks"
+
+  
+  "The Pixar Theory":
+    template: {name: Collection, list: 8195094, poster: https://theposterdb.com/api/assets/338890}
+    sort_title: "!011_Pixar Theory"
+    collection_order: custom
+    summary: Chronological order of the Pixar theory (all Pixar films are in a shared universe that is connected by Boo)
